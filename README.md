@@ -3,11 +3,11 @@
 ### Requirements
 
 - [Terraform](http://www.terraform.io/downloads.html)
-- Account at [digitalocean](https://www.digitalocean.com)
-- Generated [token](https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2#HowToGenerateaPersonalAccessToken) at digitalocean
-- [Ssh key](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) added to your digitalocean account
+- Account at [Digital Ocean](https://www.digitalocean.com)
+- Generated [token](https://www.digitalocean.com/community/tutorials/how-to-use-the-digitalocean-api-v2#HowToGenerateaPersonalAccessToken) at Digital Ocean
+- [Ssh key](https://www.digitalocean.com/community/tutorials/how-to-use-ssh-keys-with-digitalocean-droplets) added to your Digital Ocean account
 - Get your pub key [fingerprint](http://stackoverflow.com/questions/9607295/how-do-i-find-my-rsa-key-fingerprint), use ssh-keygen -E md5 -lf when md5.
-- Enough credits on your account :-)
+- Enough credits on your Digital Ocean account :-)
 
 ### Features
 
