@@ -34,6 +34,34 @@ terraform apply \
 -var "ssh_fingerprint=$SSH_FINGERPRINT"
 
 terraform show
+
+digitalocean_droplet.centos7node1:
+  id = 9639873
+  image = centos-7-0-x64
+  ipv4_address = [public ip]
+  ipv4_address_private = [private ip]
+  locked = false
+  name = centos7node1
+  private_networking = true
+  region = ams3
+  size = 512mb
+  ssh_keys.# = 1
+  ssh_keys.0 =  [your fingerprint]
+  status = active
+digitalocean_droplet.centos7node2:
+  id = 9639874
+  image = centos-7-0-x64
+  ipv4_address = [public ip]
+  ipv4_address_private = [private ip]
+  locked = false
+  name = centos7node2
+  private_networking = true
+  region = ams3
+  size = 512mb
+  ssh_keys.# = 1
+  ssh_keys.0 = [your fingerprint]
+  status = active
+
 ```
 
 ### Reference(s)
