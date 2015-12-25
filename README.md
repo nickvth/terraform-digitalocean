@@ -1,4 +1,4 @@
-## Terrafrom plan to deploy centos7 droplet(s) at Digital Ocean
+## Terraform plan to deploy centos7 droplet(s) at Digital Ocean
 
 ### Requirements
 
