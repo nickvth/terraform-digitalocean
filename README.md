@@ -16,23 +16,37 @@
 
 ### Instructions
 
+Set environment variables
+
 ```
 export DO_PAT=[your generated toke]
 export SSH_FINGERPRINT="[your public key fingerprint]"
 export TF_LOG=1
+```
 
+Check your infrastructure execution plan
+
+```
 terraform plan \ 
 -var "do_token=${DO_PAT}" \ 
 -var "pub_key=~/.ssh/id_rsa.pub" \
 -var "pvt_key=~/.ssh/id_rsa" \
 -var "ssh_fingerprint=$SSH_FINGERPRINT"
+```
 
+Apply your infrastructure execution plan
+
+```
 terraform apply \ 
 -var "do_token=${DO_PAT}" \ 
 -var "pub_key=~/.ssh/id_rsa.pub" \
 -var "pvt_key=~/.ssh/id_rsa" \
 -var "ssh_fingerprint=$SSH_FINGERPRINT"
+```
 
+Show your infrastructure setup
+
+```
 terraform show
 
 digitalocean_droplet.centos7node1:
