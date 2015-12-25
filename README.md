@@ -32,6 +32,8 @@ terraform apply \
 -var "pub_key=~/.ssh/id_rsa.pub" \
 -var "pvt_key=~/.ssh/id_rsa" \
 -var "ssh_fingerprint=$SSH_FINGERPRINT"
+
+terraform show
 ```
 
 ### Reference(s)
